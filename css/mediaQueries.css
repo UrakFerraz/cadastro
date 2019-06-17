@@ -1,0 +1,133 @@
+@media (min-width: 320px) and (max-width: 550px) {
+	span, a {
+		font-size: 16px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+	.tagContainer {
+		font-size: 14px !important;
+	}
+
+	.fullContainer {
+		position: relative;
+		display: flex;
+		margin: 10px;
+	}
+
+	.textHeader {
+		text-align: right;
+		position: absolute;
+		font-size: 25px;
+		font-family: 'Roboto Condensed', sans-serif;
+		width: 90%;
+		box-sizing: border-box;
+		display: block;
+		top: 20px;
+	}
+
+	#logoImax {
+		position: relative;
+		box-sizing: border-box;
+		left: 0px;
+	}
+
+	.blocksWrapper {
+		padding: 20px;
+		box-sizing: border-box;
+	}
+
+	button {
+		font-size: 16px;
+	}
+
+	button span {
+		font-size: 16px;
+	}
+
+	input {
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 16px;
+	}
+
+	.footer-container h3, .footer-container p {
+		font-size: 14px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.tabelaAgenciasDescadastradas th:nth-child(1), .tabelaAgenciasDescadastradas td:nth-child(1) {
+	width: 25px;
+	padding: 0;
+	margin: 0;
+	}
+	.tabelaAgenciasDescadastradas th:nth-child(2) {
+	width: 30%;
+	}
+
+
+.tabelaAgenciasDescadastradas th, .tabelaAgenciasDescadastradas td, .tabelaReleases th, .tabelaReleases td {
+	padding: 7px 5px;
+}
+	.tabelaReleases th:first-child {
+		width: 40%;
+	}
+
+
+	th, td {
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		font-size: 14px;
+		padding: 5px;
+
+	}
+
+	.ModalWrapper {
+		padding: 20px;
+		width: 90%;
+	}
+
+
+	#textareaDadosPessoais {
+		margin-top: 40px;
+}
+
+.emailsWrapper {
+	margin-top: 30px
+}
+
+	/*block tels e emails*/
+	.blockTelEmail {
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-rows: auto auto;
+		grid-gap: 0px;
+		width: 100%;
+		margin-top: 110px;
+	}
+
+	.NameWrapper {
+		grid-column: 1 / 3;
+		grid-template-columns: 1fr;
+		grid-row-gap: 20px;
+	}
+
+	.telsWrapper {
+		grid-column: 1 / 3;
+		margin-top: 20px;
+	}
+
+	.emailsWrapper {
+		grid-column: 1 / 3;
+		margin-top: 20px;
+	}
+
+	.blockEndereco {
+		grid-template-rows: 1fr;
+		grid-template-rows: auto;
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+	}
+
+	.blockEndereco .telsWrapper, .endereco1Wrapper .lineEnd, .blockEndereco .line2, .lineNum {
+		margin-top: 10px;
+	}
+}

@@ -1,0 +1,77 @@
+@media (min-width: 320px) and (max-width: 590px) {
+  #ctaBtn, #ctaBtnA, #ctaBtn1 {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+  }
+  h2 {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+  }
+  h1{
+    font-size: 18px;
+  }
+
+  .fullContainer, .fullContainer1, .fullContainer2 {
+    padding: 10px;
+  }
+
+  .logoCliente {
+    width: 100px;
+    height: 30px;
+  }
+
+  .logoImax {
+    height: 50px;
+    width: 100px;
+  }
+
+  .svgHeader {
+    width: 100px;
+    height: 100px;
+    top: -30px;
+    left: none;
+    transform: translateX(0);
+  }
+
+  .svgHeader svg {
+    width: 60%;
+    height: 60%;
+  }
+
+  .logos1 {
+    padding: 10px;
+  }
+
+  .fullContainer, .fullContainer1 {
+    margin: 40px 10px;
+  }
+
+   .fullContainer2 {
+    margin: 60px 10px 10px 10px;
+   }
+
+   input {
+    font-size: 16px;
+   }
+
+   .warning {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+   }
+
+   .warning p {
+    font-size: 16px;
+   }
+
+   .warning svg {
+    justify-self: center;
+    margin-bottom: 15px;
+   }
+
+   .footer-container h3, .footer-container p {
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+}
